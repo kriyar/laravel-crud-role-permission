@@ -29,7 +29,7 @@ This project provide interface to manage role, permission, and user role. This p
 
 - The role and permission is based on package [Spatie Role Permisison](https://github.com/spatie/laravel-permission).
 - The front-end of this project is based on [Bootstrap](https://getbootstrap.com).
-- HTML Generator with [LaravelCollective/html](https://github.com/LaravelCollective/docs/blob/5.6/html.md)
+- HTML Generator with [LaravelCollective/html](https://github.com/LaravelCollective/docs/blob/5.6/html.md).
 
 ## License
 
