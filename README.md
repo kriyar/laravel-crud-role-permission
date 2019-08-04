@@ -14,7 +14,7 @@ This project provide interface to manage role, permission, and user role. This p
 - Copy `.env.example` to `.env`, then setup your database configuration at `.env` file
 - Run composer `php artisan key:generate` to generate new APP_KEY
 - Generate database table using `php artisan migrate` command
-- Run composer `php artisan db:seed` to generate pre-define roles and permissions
+- Run composer `php artisan db:seed` to generate pre-define roles, permissions, and Super Admin user.
 - Run `php artisan route:list` command to see available routes
 
 ## Main routes
