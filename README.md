@@ -10,12 +10,12 @@ This project provide interface to manage role, permission, and user role. This p
 
 ## Usage
 
-- Clone the project and install required packages using `composer install` command
+- Clone the project and install required packages using command `composer install`
 - Copy `.env.example` to `.env`, then setup your database configuration at `.env` file
-- Run composer `php artisan key:generate` to generate new APP_KEY
-- Generate database table using `php artisan migrate` command
-- Run composer `php artisan db:seed` to generate pre-define roles, permissions, and Super Admin user.
-- Run `php artisan route:list` command to see available routes
+- Run command `php artisan key:generate` to generate new APP_KEY
+- Run command `php artisan migrate` to generate database tables
+- Run command `php artisan db:seed` to generate pre-define roles, permissions, and Super Admin user.
+- Run command `php artisan route:list` to see available routes
 
 ## Main routes
 
