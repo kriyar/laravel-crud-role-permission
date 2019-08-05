@@ -35,8 +35,8 @@
           {!! Form::checkbox('roles[]', $role->id, $userRoles[$role->id], ['class' => 'custom-control-input', 'id' => 'check' . $role->id]) !!}
           <label class="custom-control-label" for="{{ 'check' .  $role->id }}">{{ $role->name }}</label>
         </div>
+        @endforeach
       </div>
-      @endforeach
     @endforeach
   </div>
   <div class="py-3 col-sm-12">
