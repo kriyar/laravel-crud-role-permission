@@ -25,19 +25,19 @@
 
 {!! Form::model($permission, ['method' => 'PATCH', 'route' => ['permissions.update', $permission->id]]) !!}
 <div class="row">
-  <div class="col-xs-12 col-sm-12 col-md-12">
+  <div class="col-xs-12 col-sm-12 col-md-3">
     <div class="form-group">
       <strong>{{ __('Name') }}:</strong>
       {!! Form::text('name', null, ['placeholder' => 'Name', 'class' => 'form-control', 'required' => true, 'autofocus' => 'true']) !!}
     </div>
   </div>
-  <div class="col-xs-12 col-sm-12 col-md-12">
+  <div class="col-xs-12 col-sm-12 col-md-3">
     <div class="form-group">
       <strong>{{ __('Guard name') }}:</strong>
       {!! Form::select('guard_name', $guard_name, null, ['class' => 'form-control']); !!}
     </div>
   </div>
-  <div class="col-xs-12 col-sm-12 col-md-12">
+  <div class="col-xs-12 col-sm-12 col-md-3">
     <div class="form-group required">
       <strong>{{ __('Group') }}:</strong>
       {!! Form::text('group', null, ['placeholder' => 'Permission group', 'class' => 'form-control', 'required' => true]) !!}
